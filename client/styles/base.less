@@ -2,6 +2,7 @@
 -------------------------------------------------- */
 html, body {
   letter-spacing: @letter-spacing;
+  min-width:320px; 
 }
 
 main {
@@ -26,9 +27,10 @@ main {
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
-@media only screen and (min-width:320px) and (max-width: 320px) {
+@media only screen and (max-width: 320px) {
   body {
     font-size: @font-size-small;
+	background:red
   }
   h1 {
     font-size: floor((@font-size-base * 2.15));
@@ -44,6 +46,7 @@ main {
 @media only screen and (max-width: 768px) {
   body {
     font-size: @font-size-small;
+	background:yellow
   }
   h1 {
     font-size: floor((@font-size-base * 2.15));
