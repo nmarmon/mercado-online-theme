@@ -1,9 +1,9 @@
 # Reaction Example Theme
-Reaction Commerce example theme plugin.
+Tema Mercado Online para Reaction Commerce.
 
 # Installation
-Install this theme in `imports/plugins/custom/` to activate it.
+Instala este tema en la ruta `imports/plugins/custom/` para acivarlo.
 
 # Customization Guide
-- [Creating a theme](https://docs.reactioncommerce.com/reaction-docs/master/creating-a-theme-package)
-- [Customization guide](https://docs.reactioncommerce.com/reaction-docs/master/tutorial)
+- [Crear un tema](https://docs.reactioncommerce.com/reaction-docs/master/creating-a-theme-package)
+- [Guía de persnalización](https://docs.reactioncommerce.com/reaction-docs/master/tutorial)
