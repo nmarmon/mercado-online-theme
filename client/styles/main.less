@@ -3,20 +3,11 @@
 // you can also include CSS from node_modules by doing {}/node_modules/<path_to_module_css>
 @import "{}/imports/plugins/included/default-theme/client/styles/main.less";
 
-// Override any variables from the default theme
-@navbar-default-bg: #152a38;
-@body-bg: #d1d4c9;
-@product-overlay-text: #152a38;
-@link-color: #fde9c9;
-@cart-icon-bg: #556e53;
-@cart-icon-badge: @cart-icon-bg;
-@cart-icon-padding:	15px 20px 10px 15px;
-@product-item-image-border: 2px solid #999;
-
 // Override any less files from the default theme
 @import "navbar.less";
 @import "base.less";
 
+@import "variables.less";
 @import "products/productGrid.less";
 @import "dashboard/console.less";
 @import "accounts/accounts.less";

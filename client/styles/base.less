@@ -5,6 +5,10 @@ html, body {
   min-width:320px; 
 }
 
+body{
+overflow-y:hidden
+}
+
 main {
   min-height: 80vh;
   // padding: 20px 60px 135px 60px;
@@ -50,7 +54,7 @@ it is by default "portrait")
 	}
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   body {
     font-size: @font-size-small;
   }
@@ -65,12 +69,12 @@ it is by default "portrait")
   }
 }
 
-@media only screen and (max-width: 768px) and (orientation:landscape) {
+@media only screen and (max-width: 767px) and (orientation:landscape) {
 	body{
 	}
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1023px) {
   body {
     font-size: @font-size-small;
   }
@@ -82,7 +86,7 @@ it is by default "portrait")
   }
 }
 
-@media only screen and (max-width: 1024px) and (orientation:landscape) {
+@media only screen and (max-width: 1023px) and (orientation:landscape) {
 	body{
 	}
 }
